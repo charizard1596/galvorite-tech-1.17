@@ -1,3 +1,5 @@
 {
-  "item.galvorite_ingot": "Galvorite Ingot"
+  "item.galvoritetech.galvorite_ingot": "Galvorite Ingot",
+  "item.galvoritetech.galvorite_nugget": "Galvorite Nugget",
+  "item.galvoritetech.raw_galvorite": "Raw Galvorite"
 }

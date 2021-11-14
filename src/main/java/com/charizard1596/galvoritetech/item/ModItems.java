@@ -17,6 +17,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> GALVORITE_INGOT = ITEMS.register("galvorite_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> GALVORITE_NUGGET = ITEMS.register("galvorite_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> RAW_GALVORITE = ITEMS.register("raw_galvorite",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
