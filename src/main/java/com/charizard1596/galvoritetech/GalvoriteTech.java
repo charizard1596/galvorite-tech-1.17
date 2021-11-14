@@ -1,5 +1,6 @@
 package com.charizard1596.galvoritetech;
 
+import com.charizard1596.galvoritetech.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,8 +28,9 @@ public class GalvoriteTech {
 
     public GalvoriteTech() {
         // Register the setup method for modloading
-        IEventBus EventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        EventBus.addListener(this::setup);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.register(eventBus);
+        eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
