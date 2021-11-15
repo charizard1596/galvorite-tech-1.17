@@ -2,5 +2,6 @@
   "item.galvoritetech.galvorite_ingot": "Galvorite Ingot",
   "item.galvoritetech.galvorite_nugget": "Galvorite Nugget",
   "item.galvoritetech.raw_galvorite": "Raw Galvorite",
-  "itemGroup.galvoriteTechTab" : "Galvorite Tech"
+  "itemGroup.galvoriteTechTab" : "Galvorite Tech",
+  "block.galvoritetech.galvorite_ore" : "Galvorite Ore"
 }
