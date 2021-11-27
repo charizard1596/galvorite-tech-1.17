@@ -1,0 +1,16 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key" : {
+    "#" : { "item" : "galvoritetech:galvorite_nugget"}
+
+
+  },
+  "result": {
+    "item" : "galvoritetech:galvorite_ingot"
+  }
+}
