@@ -1,0 +1,12 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item" : "galvoritetech:galvorite_ingot"
+    }
+  ],
+  "result": {
+    "item" : "galvoritetech:galvorite_nugget",
+    "count" : 9
+  }
+}

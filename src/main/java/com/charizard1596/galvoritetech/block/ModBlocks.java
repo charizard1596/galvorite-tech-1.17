@@ -21,6 +21,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, GalvoriteTech.MOD_ID);
     public static final RegistryObject<Block> GALVORITE_ORE = registerBlock("galvorite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(10f).requiresCorrectToolForDrops()), ModCreativeModeTab.GALVORITE_TAB);
+    public static final RegistryObject<Block> WIRE = registerBlock("wire",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1f)), ModCreativeModeTab.GALVORITE_TAB);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
